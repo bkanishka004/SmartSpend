@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/budget-management-system-react/static/css/main.82e3a1d5.css",
+    "main.js": "/budget-management-system-react/static/js/main.e8d5e3c5.js",
+    "static/js/592.5564bdf3.chunk.js": "/budget-management-system-react/static/js/592.5564bdf3.chunk.js",
+    "index.html": "/budget-management-system-react/index.html",
+    "main.82e3a1d5.css.map": "/budget-management-system-react/static/css/main.82e3a1d5.css.map",
+    "main.e8d5e3c5.js.map": "/budget-management-system-react/static/js/main.e8d5e3c5.js.map",
+    "592.5564bdf3.chunk.js.map": "/budget-management-system-react/static/js/592.5564bdf3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82e3a1d5.css",
+    "static/js/main.e8d5e3c5.js"
+  ]
+}
