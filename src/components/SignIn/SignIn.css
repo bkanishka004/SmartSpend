@@ -1,0 +1,159 @@
+/* SignIn.css */
+
+/* Full-screen gradient background, centers content */
+.signin {
+  background-image: linear-gradient(
+    to right,
+    var(--primary-color),
+    var(--hover-color)
+  );
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Card-style login container */
+.signin-container {
+  padding: 2rem;
+  background-color: var(--background-color);
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Input fields and Google button spacing */
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.google-login {
+  margin-bottom: 2rem;
+}
+
+/* For inputs with left icons */
+.input-icon-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-icon {
+  position: absolute;
+  left: 10px;
+  color: var(--primary-color);
+  z-index: 10;
+}
+
+/* Inputs styling */
+.form-control {
+  padding-left: 30px;
+  height: 48px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px !important;
+}
+
+/* Buttons */
+.btn-fullwidth,
+.btn-login {
+  width: 100%;
+  display: block;
+  border-radius: 5px;
+  padding: 12px 24px;
+  border: 2px solid var(--primary-color);
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+/* Google Button */
+.btn-fullwidth {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.btn-fullwidth:hover {
+  background-color: var(--hover-color);
+  color: var(--secondary-color);
+  transform: scale(1.05);
+}
+
+/* Login button */
+.btn-login {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.btn-login:hover {
+  background-color: var(--secondary-hover-color);
+  transform: scale(1.05);
+}
+
+.btn-login:hover svg {
+  transform: translateX(5px);
+  transition: transform 0.3s ease;
+}
+
+/* Other UI Elements */
+.icon {
+  margin-right: 10px;
+}
+
+.text-center {
+  margin-top: 2rem;
+}
+
+.forgot-password {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+/* Validation messages */
+.invalid-feedback {
+  color: red;
+  font-size: 0.875em;
+  margin-top: 0.25rem;
+}
+
+.text-danger {
+  color: #dc3545;
+  font-size: 0.875rem;
+  padding-left: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+}
+
+/* Password eye icon */
+.toggle-password {
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Disable button when loading */
+.btn-login:disabled {
+  background-color: #cccccc;
+  border-color: #cccccc;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .signin-container {
+    padding: 1rem;
+    margin: 0 20px;
+  }
+}

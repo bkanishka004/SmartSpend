@@ -1,0 +1,32 @@
+.info-card {
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.info-card-title {
+  font-size: 2em;
+  color: var(--secondary-color);
+  margin-bottom: 10px;
+}
+
+/* Base styling for all values */
+.info-card-value {
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: var(--background-color);
+  font-family: "Segoe UI", "Roboto", sans-serif;
+  display: inline-block;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+/* Conditional style for negative values */
+.negative-value {
+  font-size: 0.9em !important;
+  color: #ff4d4d !important;
+}

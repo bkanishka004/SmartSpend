@@ -1,0 +1,62 @@
+/* Breadcrumb Styling */
+.custom-breadcrumb {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 2px solid var(--breadcrumb); /* Use your CSS variable */
+}
+
+/* Profile Image and Layout */
+.user-info .profile {
+  display: flex;
+  align-items: center;
+}
+
+.user-info .user-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+/* =============================
+   Responsive Design
+   ============================= */
+
+/* For screens less than or equal to 768px */
+@media (max-width: 768px) {
+  .custom-breadcrumb {
+    font-size: 14px;
+  }
+
+  .profile {
+    display: none;
+  }
+}
+
+/* iPad screens (577px to 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .main-content {
+    padding: 10px;
+  }
+
+  .user-info,
+  .user-info .profile,
+  .user-info .user-image {
+    display: none;
+  }
+}
+
+/* Small screens (phones, <=576px) */
+@media (max-width: 576px) {
+  .main-content {
+    padding: 10px;
+  }
+
+  .user-info,
+  .user-info .profile,
+  .user-info .user-image {
+    display: none;
+  }
+}
