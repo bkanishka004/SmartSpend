@@ -5,7 +5,11 @@
 Built as a real-world, scalable single-page application (SPA), Smart Spend focuses on intuitive UX, data-driven insights, and modular, maintainable code — making it an ideal prototype for a FinTech-grade frontend system.
 
 ---
+## 🚀 Live Demo
 
+🔗 [Smart Spend (Vercel)](https://smart-spend-dusky.vercel.app/)
+
+---
 ## 🧠 Vision
 
 **Why Smart Spend?**
